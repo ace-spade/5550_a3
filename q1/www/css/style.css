@@ -1,0 +1,125 @@
+/*colours
+#000000 - black
+#f75b82 - very pink
+#f7b2bd - faded pink
+#ffffff - white
+#494949 - dark grey
+*/
+
+body {
+  height: 100vh;
+  background-image:linear-gradient(#f7b2bd, #f75b82)
+}
+h1 {
+  font-family: "Univers";
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+h2 {
+  text-align: center;
+  color: #494949;
+  font-size: 25px;
+}
+h3 {
+
+  color: #000000;
+  font-size: 20px;
+}
+.large {
+  width: 80%;
+  height: auto;
+}
+.medium{
+  width: 50%;
+  height: auto;
+}
+.small{
+  width: 35%;
+  height: auto;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.right{
+  float: right;
+
+}
+.left{
+  float: left;
+}
+
+/* <CHECKOUT_CART> */
+.item {
+  background: #f75b82 !important;
+  color: green !important;
+}
+
+#item-name {
+  color: white;
+}
+
+#item-description {
+  color: black;
+}
+
+#item-quantity {
+  color:green;
+}
+
+#item-price {
+  color:blue;
+}
+
+#item-quantity {
+  color:purple;
+}
+
+#cart-total {
+  background: #494949;
+}
+
+#cart-total-subtotal {
+  color: white;
+}
+
+#cart-total-hst {
+  color: white;
+}
+
+#cart-total-amount {
+  color:white;
+}
+
+.white-text {
+  color:#f75b82;
+}
+/* </CHECKOUT_CART> */
+
+/* <SHOPPING_CART> */
+#cart-button:link {
+  color: red !important;
+}
+
+#cart-button:visited {
+  color: black;
+}
+
+#cart-button:hover {
+  color: white !important;
+}
+
+#cart-button:active {
+  color: white;
+}
+
+.delete-icon {
+  color: black !important;
+}
+
+.delete-icon:hover {
+  color: blue !important;
+}
+/* </SHOPPING_CART> */
