@@ -12,7 +12,10 @@ h1 {
   line-height: 1.1;
   color: #241c15;
 }
-input[type = submit] :enabled {
+input{
+    border-color: #007c89;
+}
+input[type = submit]{
   background-color: #007c89;
   font-size: 14px
 
@@ -21,14 +24,6 @@ input[type = submit] :enabled {
 }
 a {
   float: right;
-}
-input[type = text]{
-  border-color: #007c89;
-
-}
-input[type = password]{
-  border-color: #007c89;
-
 }
 div.content{
   margin: auto;
