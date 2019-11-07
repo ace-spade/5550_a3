@@ -11,9 +11,9 @@
   <script>
     function validate()
     {
-      var name = document.forms["RegForm"]["Name"];
-      var email = document.forms["RegForm"]["EMail"];
-      var password = document.forms["RegForm"]["Password"];
+      var name = document.forms["RegForm"]["username"];
+      var email = document.forms["RegForm"]["email"];
+      var password = document.forms["RegForm"]["password"];
 
 
       if (name.value == "")
@@ -114,10 +114,10 @@
       <h1 >Get started with your account</h1>
       <p>Find your people. Engage your customers. Build your brand. Do it all with FakeChimp's Marketing Platform.</p>
       <form name="RegForm" action="http://cp202-server.appspot.com/register" onsubmit="return validate()" method="post">
-        <b><p>Username:<br> <input type="text" size=65 name="Name" > </p><br>
-        <p>E-mail Address:<br> <input type="text" size=65 name="EMail">  </p><br>
+        <b><p>Username:<br> <input type="text" id="username" size=65 name="username" > </p><br>
+        <p>E-mail Address:<br> <input type="text" id="email" size=65 name="email">  </p><br>
         <a href="#" style="color: #007c89" onclick="myFunction()" ><i class="fa fa-eye" aria-hidden="true" color = "#007c89"></i> Show</a>
-        <p>Password:  <br> <input type="password" size=65 id="Password" name="Password"> </p><br></b>
+        <p>Password:  <br> <input type="password" size=65 id="password" name="password"> </p><br></b>
         <p><input type="submit" class="submit" value="Get Started!" disabled name="Submit"> By clicking the "Get Started!" button, you are creating a FakeChimp account.</p>
         <h6>©2019 All Rights Reserved. FakeChimp® is a registered trademark of WLUCP202 Class.</h6>
       </form>
