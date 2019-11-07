@@ -17,10 +17,6 @@ input[type = submit] :enabled {
   font-size: 14px
 
 }
-input[type = submit] :disabled{
-  background-color: white;
-  border-color: (36,28,21,0.5);
-  color: (36,28,21,0.5);
 
 }
 a {
