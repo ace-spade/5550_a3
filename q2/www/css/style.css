@@ -50,3 +50,19 @@ div.right{
 img{
   width: 120px;
 }
+#main-img {
+  
+  height: 250px;
+  width:100%
+} 
+
+@media screen and (max-width: 780px) {   
+    #main-img{
+    	background-image: url(../img/logo-black-white);
+    } 
+}
+@media (min-width: 780px) {    
+     #main-img{         
+         background-image: url(../img/logo-color.jpeg);
+     } 
+}
