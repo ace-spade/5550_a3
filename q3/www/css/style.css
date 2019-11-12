@@ -40,6 +40,20 @@ div.right{
   float: right;
 
 }
-img{
-  width: 120px;
+#main-img {
+  
+  height: 120px;
+  width:100%
+} 
+
+@media screen and (max-width: 780px) {   
+    #main-img{
+    	background-image: url(../img/logo-black-white.png);
+    } 
 }
+
+@media screen and (min-width: 780px) {      
+    #main-img{      
+    	background-image: url(../img/logo-color.png);
+    } 
+} 
